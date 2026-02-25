@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("imagens/backiee-249860.jpg");
+    height: 100vh;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.815);
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    padding: 10px;
+}
+
+main h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2%;
+    gap: 20px;
+}
+
+main section div.card {
+    width: 300px;
+    border: 2px solid #776f6f;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+main section div.card div.img {
+    height: 200px;
+    width: 100%;
+}
+
+main section div.card div.img img {
+    height: 100%;
+    width: 100%;
+}
+
+main section div.card div.detalhes {
+    padding: 10px;
+    color: #fff;
+}
+
+main section div.card div.detalhes h2 {
+    font-size: 20px;
+}
+
+main section div.card div.detalhes h3 {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+main section div.card div.detalhes p {
+    font-size: 14px;
+    margin: 15px 0 0 0;
+}
