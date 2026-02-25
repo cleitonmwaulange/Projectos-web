@@ -1,0 +1,12 @@
+table,
+tr,
+td {
+    border: 2px solid black ;
+    border-collapse: collapse;
+}
+thead {
+    font-weight: bold;
+}
+td {
+   padding: 5px;
+}
